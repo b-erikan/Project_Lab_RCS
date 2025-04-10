@@ -64,8 +64,7 @@ The following ROS packages are required:
 3. Install Franka_ros:
    ```bash
    cd ~/catkin_ws/src
-git clone --recursive https://github.com/frankaemika/franka_ros.git
-
+   git clone --recursive https://github.com/frankaemika/franka_ros.git
    ```
 
 4. Clone this repository into your catkin workspace:
@@ -99,6 +98,40 @@ git clone --recursive https://github.com/frankaemika/franka_ros.git
    ```bash
    rosrun franka_example_nodes gripper_control
    ```
+
+
+Modules and Their Roles
+------------------------
+
+1. MoveIt (moveit/move_group_interface, moveit/planning_scene_interface)
+   - Used for high-level motion planning.
+   - The MoveGroupInterface manages goal states, planners, and execution.
+   - PlanningSceneInterface manages the world state, including collision objects.
+
+2. Franka Gripper Action (franka_gripper/GraspAction, MoveItSimpleControllerManager)
+   - Provides gripper control (grasp and release actions).
+   - Enables direct actionlib communication with the Franka Gripper.
+
+3. TF2 (tf2_ros/Buffer, tf2_ros/TransformListener)
+   - Handles real-time transformation between coordinate frames.
+   - Used to get the object pose in the robot base frame from the camera frame.
+
+4. Geometry and Messages (geometry_msgs, moveit_msgs)
+   - Used for defining poses, orientation, and movement requests.
+   - moveit_msgs manages planning and trajectory execution results.
+
+5. Visual Tools (moveit_visual_tools)
+   - Provides real-time visualization in RViz for poses, paths, and markers.
+   - Enhances debugging and user feedback during path planning.
+
+6. Actionlib (actionlib/client/simple_action_client)
+   - Handles communication with asynchronous action servers like the Franka Gripper.
+
+7. Standard ROS Utilities (ros/ros.h, ros/duration.h)
+   - Provides timing, logging, and node initialization support.
+
+8. Standard C++ Libraries (iostream, vector, memory)
+   - Used for general-purpose logic, memory management, and input/output.
 
 
 ## Features
