@@ -54,14 +54,14 @@ The following ROS packages are required:
 2. Install libfranka:
 ```bash
    cd ~/catkin_ws/src
-git clone --recursive https://github.com/frankaemika/libfranka.git
-cd libfranka
-mkdir build && cd build
-cmake -DCMAKE_BUILD_TYPE=Release ..
-cmake --build .
-sudo make install
+   git clone --recursive https://github.com/frankaemika/libfranka.git
+   cd libfranka
+   mkdir build && cd build
+   cmake -DCMAKE_BUILD_TYPE=Release ..
+   cmake --build .
+   sudo make install
    ```
-3. Install franka_ros!:
+3. Install Franka_ros:
    ```bash
    cd ~/catkin_ws/src
 git clone --recursive https://github.com/frankaemika/franka_ros.git
