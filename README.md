@@ -40,31 +40,47 @@ The following ROS packages are required:
 - `sensor_msgs`
 - `franka_gripper`
 - `action_lib`
+- `libfranka`
 - `tf2`
 - `tf2_ros`
 - `tf2_geometry_msgs`
 
 ## Installation
 
-1. Install ROS and required dependencies:
+1. Install MoveIt!:
    ```bash
    sudo apt install ros-<distro>-moveit
-   sudo apt install ros-<distro>-franka-gripper
+   ```
+2. Install libfranka:
+```bash
+   cd ~/catkin_ws/src
+git clone --recursive https://github.com/frankaemika/libfranka.git
+cd libfranka
+mkdir build && cd build
+cmake -DCMAKE_BUILD_TYPE=Release ..
+cmake --build .
+sudo make install
+   ```
+3. Install franka_ros!:
+   ```bash
+   cd ~/catkin_ws/src
+git clone --recursive https://github.com/frankaemika/franka_ros.git
+
    ```
 
-2. Clone this repository into your catkin workspace:
+4. Clone this repository into your catkin workspace:
    ```bash
    cd ~/catkin_ws/src
    git clone https://github.com/b-erikan/Project_Lab_RCS.git
    ```
 
-3. Build the package:
+5. Build the package:
    ```bash
    cd ~/catkin_ws
    catkin_make
    ```
 
-4. Source your workspace:
+6. Source your workspace:
    ```bash
    source ~/catkin_ws/devel/setup.bash
    ```
