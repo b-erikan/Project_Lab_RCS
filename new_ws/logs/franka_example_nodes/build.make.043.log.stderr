@@ -1,0 +1,11 @@
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:[m[K In member function ‘[01m[Kvoid Manipulator::release()[m[K’:
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:77:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kfranka_gripper::GraspGoal[m[K’ {aka ‘[01m[Kstruct franka_gripper::GraspGoal_<std::allocator<void> >[m[K’} has no member named ‘[01m[Keffort[m[K’
+   77 |   goal.[01;31m[Keffort[m[K = 0.0;  // No specific effort
+      |        [01;31m[K^~~~~~[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:[m[K In member function ‘[01m[Kvoid Manipulator::grab()[m[K’:
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:95:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kfranka_gripper::GraspGoal[m[K’ {aka ‘[01m[Kstruct franka_gripper::GraspGoal_<std::allocator<void> >[m[K’} has no member named ‘[01m[Keffort[m[K’
+   95 |   goal.[01;31m[Keffort[m[K = 0.0;  // No specific effort
+      |        [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/gripper_control.dir/build.make:63: CMakeFiles/gripper_control.dir/src/gripper_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:244: CMakeFiles/gripper_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

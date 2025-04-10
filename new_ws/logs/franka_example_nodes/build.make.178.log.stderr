@@ -1,0 +1,30 @@
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:[m[K In member function ‘[01m[Kbool Manipulator::goToPoseCartesian(geometry_msgs::Pose)[m[K’:
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:136:108:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble moveit::planning_interface::MoveGroupInterface::computeCartesianPath(const std::vector<geometry_msgs::Pose_<std::allocator<void> > >&, double, double, moveit_msgs::RobotTrajectory&, bool, moveit_msgs::MoveItErrorCodes*)[m[K’ is deprecated: Drop jump_threshold [[01;35m[K-Wdeprecated-declarations[m[K]
+  136 |   move_group_interface.computeCartesianPath(waypoints, eef_step, jump_threshold, cartesian_plan.trajectory_[01;35m[K)[m[K;
+      |                                                                                                            [01;35m[K^[m[K
+In file included from [01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:1[m[K:
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:783:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  783 |   [01;36m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::Pose>& waypoints, double eef_step, double /*jump_threshold*/,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:360:19:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Ktf2::Quaternion tf_original[m[K’
+  360 |   tf2::Quaternion [01;31m[Ktf_original[m[K;
+      |                   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:325:17:[m[K [01;36m[Knote: [m[K‘[01m[Ktf2::Quaternion tf_original[m[K’ previously declared here
+  325 | tf2::Quaternion [01;36m[Ktf_original[m[K;
+      |                 [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:364:17:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Ktf2::Quaternion z_rotation[m[K’
+  364 | tf2::Quaternion [01;31m[Kz_rotation[m[K;
+      |                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:329:17:[m[K [01;36m[Knote: [m[K‘[01m[Ktf2::Quaternion z_rotation[m[K’ previously declared here
+  329 | tf2::Quaternion [01;36m[Kz_rotation[m[K;
+      |                 [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:370:17:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Ktf2::Quaternion tf_result[m[K’
+  370 | tf2::Quaternion [01;31m[Ktf_result[m[K = z_rotation * tf_original; // Global frame rotation
+      |                 [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:335:17:[m[K [01;36m[Knote: [m[K‘[01m[Ktf2::Quaternion tf_result[m[K’ previously declared here
+  335 | tf2::Quaternion [01;36m[Ktf_result[m[K = z_rotation * tf_original; // Global frame rotation
+      |                 [01;36m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/gripper_control.dir/build.make:63: CMakeFiles/gripper_control.dir/src/gripper_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:244: CMakeFiles/gripper_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,8 @@
+prefix=/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/install
+
+Name: moveit_resources_prbt_pg70_support
+Description: Description of moveit_resources_prbt_pg70_support
+Version: 0.8.3
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

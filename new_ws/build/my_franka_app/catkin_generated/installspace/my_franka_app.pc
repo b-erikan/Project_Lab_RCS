@@ -1,0 +1,8 @@
+prefix=/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/install
+
+Name: my_franka_app
+Description: Description of my_franka_app
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

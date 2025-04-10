@@ -1,0 +1,39 @@
+/usr/bin/ld: CMakeFiles/gripper_control.dir/src/gripper_control.cpp.o: in function `zmq::context_t::close() [clone .isra.0]':
+gripper_control.cpp:(.text+0x5e): undefined reference to `zmq_ctx_term'
+/usr/bin/ld: CMakeFiles/gripper_control.dir/src/gripper_control.cpp.o: in function `zmq::error_t::what() const':
+gripper_control.cpp:(.text._ZNK3zmq7error_t4whatEv[_ZNK3zmq7error_t4whatEv]+0xc): undefined reference to `zmq_strerror'
+/usr/bin/ld: CMakeFiles/gripper_control.dir/src/gripper_control.cpp.o: in function `zmq::detail::socket_base::send(zmq::message_t&, zmq::send_flags) [clone .part.0]':
+gripper_control.cpp:(.text.unlikely+0x1a): undefined reference to `zmq_errno'
+/usr/bin/ld: CMakeFiles/gripper_control.dir/src/gripper_control.cpp.o: in function `main.cold':
+gripper_control.cpp:(.text.unlikely+0x74e): undefined reference to `zmq_errno'
+/usr/bin/ld: gripper_control.cpp:(.text.unlikely+0x789): undefined reference to `zmq_msg_close'
+/usr/bin/ld: gripper_control.cpp:(.text.unlikely+0x791): undefined reference to `zmq_msg_close'
+/usr/bin/ld: gripper_control.cpp:(.text.unlikely+0x7a2): undefined reference to `zmq_close'
+/usr/bin/ld: CMakeFiles/gripper_control.dir/src/gripper_control.cpp.o: in function `zmq::message_t::message_t(unsigned long)':
+gripper_control.cpp:(.text._ZN3zmq9message_tC2Em[_ZN3zmq9message_tC5Em]+0x6): undefined reference to `zmq_msg_init_size'
+/usr/bin/ld: gripper_control.cpp:(.text._ZN3zmq9message_tC2Em[_ZN3zmq9message_tC5Em]+0x29): undefined reference to `zmq_errno'
+/usr/bin/ld: CMakeFiles/gripper_control.dir/src/gripper_control.cpp.o: in function `zmq::context_t::context_t(int, int)':
+gripper_control.cpp:(.text._ZN3zmq9context_tC2Eii[_ZN3zmq9context_tC5Eii]+0x13): undefined reference to `zmq_ctx_new'
+/usr/bin/ld: gripper_control.cpp:(.text._ZN3zmq9context_tC2Eii[_ZN3zmq9context_tC5Eii]+0x2b): undefined reference to `zmq_ctx_set'
+/usr/bin/ld: gripper_control.cpp:(.text._ZN3zmq9context_tC2Eii[_ZN3zmq9context_tC5Eii]+0x5d): undefined reference to `zmq_errno'
+/usr/bin/ld: gripper_control.cpp:(.text._ZN3zmq9context_tC2Eii[_ZN3zmq9context_tC5Eii]+0x40): undefined reference to `zmq_ctx_set'
+/usr/bin/ld: CMakeFiles/gripper_control.dir/src/gripper_control.cpp.o: in function `zmq::socket_t::socket_t(zmq::context_t&, int)':
+gripper_control.cpp:(.text._ZN3zmq8socket_tC2ERNS_9context_tEi[_ZN3zmq8socket_tC5ERNS_9context_tEi]+0x17): undefined reference to `zmq_socket'
+/usr/bin/ld: gripper_control.cpp:(.text._ZN3zmq8socket_tC2ERNS_9context_tEi[_ZN3zmq8socket_tC5ERNS_9context_tEi]+0x4b): undefined reference to `zmq_errno'
+/usr/bin/ld: CMakeFiles/gripper_control.dir/src/gripper_control.cpp.o: in function `main':
+gripper_control.cpp:(.text.startup+0x90d): undefined reference to `zmq_connect'
+/usr/bin/ld: gripper_control.cpp:(.text.startup+0x955): undefined reference to `zmq_msg_data'
+/usr/bin/ld: gripper_control.cpp:(.text.startup+0x970): undefined reference to `zmq_msg_send'
+/usr/bin/ld: gripper_control.cpp:(.text.startup+0x987): undefined reference to `zmq_msg_init'
+/usr/bin/ld: gripper_control.cpp:(.text.startup+0x998): undefined reference to `zmq_msg_recv'
+/usr/bin/ld: gripper_control.cpp:(.text.startup+0x9af): undefined reference to `zmq_msg_size'
+/usr/bin/ld: gripper_control.cpp:(.text.startup+0x9be): undefined reference to `zmq_msg_data'
+/usr/bin/ld: gripper_control.cpp:(.text.startup+0xa31): undefined reference to `zmq_msg_close'
+/usr/bin/ld: gripper_control.cpp:(.text.startup+0xa39): undefined reference to `zmq_msg_close'
+/usr/bin/ld: gripper_control.cpp:(.text.startup+0xa4a): undefined reference to `zmq_close'
+/usr/bin/ld: gripper_control.cpp:(.text.startup+0xa9c): undefined reference to `zmq_errno'
+/usr/bin/ld: gripper_control.cpp:(.text.startup+0xaaf): undefined reference to `zmq_errno'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/gripper_control.dir/build.make:192: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/.private/franka_example_nodes/lib/franka_example_nodes/gripper_control] Error 1
+make[1]: *** [CMakeFiles/Makefile2:244: CMakeFiles/gripper_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

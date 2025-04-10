@@ -1,0 +1,6 @@
+[31m[1mCMake Error[0m at /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/CMakeLists.txt:17 (message):
+  ZeroMQ library not found in
+  ~/Project_Lab_P5/Project_Lab_CAS/new_ws/src/cppzmq
+
+
+make: *** [Makefile:1820: cmake_check_build_system] Error 1

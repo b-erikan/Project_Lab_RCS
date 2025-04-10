@@ -1,0 +1,8 @@
+prefix=/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/.private/srdfdom
+
+Name: srdfdom
+Description: Description of srdfdom
+Version: 0.6.4
+Cflags: -I/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/srdfdom/include -I/usr/local/include -I/usr/include
+Libs: -L${prefix}/lib -lsrdfdom /usr/local/lib/libtinyxml2.a /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+Requires: 

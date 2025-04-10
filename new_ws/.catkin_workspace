@@ -1,0 +1,79 @@
+#!/usr/bin/env python
+
+import rospy
+from geometry_msgs.msg import Pose
+import numpy as np
+import pyrealsense2 as rs
+import cv2
+from scipy.spatial.transform import Rotation as R
+
+# Import your object detection and camera initialization functions
+from ultralytics import YOLO
+
+# ROS Node Initialization
+rospy.init_node('object_pose_publisher', anonymous=True)
+pose_pub = rospy.Publisher('/object_pose', Pose, queue_size=10)
+
+# Load YOLO model
+model = YOLO("runs/detect/train/weights/best.pt")
+
+# Initialize RealSense Camera
+pipeline = rs.pipeline()
+config = rs.config()
+config.enable_stream(rs.stream.color, 640, 480, rs.format.bgr8, 15)
+config.enable_stream(rs.stream.depth, 640, 480, rs.format.z16, 15)
+
+pipeline.start(config)
+align = rs.align(rs.stream.color)
+
+# ROS Loop
+rate = rospy.Rate(10)  # Publish at 10 Hz
+while not rospy.is_shutdown():
+    frames = pipeline.wait_for_frames()
+    aligned_frames = align.process(frames)
+    color_frame = aligned_frames.get_color_frame()
+    depth_frame = aligned_frames.get_depth_frame()
+
+    if not color_frame or not depth_frame:
+        continue
+
+    color_image = np.asanyarray(color_frame.get_data())
+
+    # Run YOLO detection
+    results = model(color_image, conf=0.25)
+    
+    for detection in results[0].boxes:
+        x1, y1, x2, y2 = map(int, detection.xyxy[0].tolist())
+
+        # Get depth at the center of the bounding box
+        center_x = (x1 + x2) // 2
+        center_y = (y1 + y2) // 2
+        depth = depth_frame.get_distance(center_x, center_y)
+
+        if depth <= 0:
+            continue
+
+        # Assume simple pose estimation (replace with your PnP solution)
+        rvec = np.zeros((3, 1))  # Replace with actual rotation vector
+        tvec = np.array([[depth], [0], [0]])  # Replace with actual translation vector
+
+        rotation = R.from_rotvec(rvec.flatten())
+        quaternion = rotation.as_quat()  # [x, y, z, w]
+
+        # Publish Pose message
+        pose_msg = Pose()
+        pose_msg.position.x = tvec[0][0]
+        pose_msg.position.y = tvec[1][0]
+        pose_msg.position.z = tvec[2][0]
+        pose_msg.orientation.x = quaternion[0]
+        pose_msg.orientation.y = quaternion[1]
+        pose_msg.orientation.z = quaternion[2]
+        pose_msg.orientation.w = quaternion[3]
+
+        pose_pub.publish(pose_msg)
+
+    rate.sleep()
+
+# Cleanup
+pipeline.stop()
+cv2.destroyAllWindows()

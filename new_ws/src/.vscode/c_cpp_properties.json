@@ -1,0 +1,45 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/opt/intel/oneapi/tbb/2021.8.0/include/**",
+        "/opt/intel/oneapi/dal/2023.0.0/include/**",
+        "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/moveit/moveit_planners/chomp/chomp_motion_planner/include/**",
+        "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_ros/franka_control/include/**",
+        "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_ros/franka_example_controllers/include/**",
+        "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/include/**",
+        "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_ros/franka_gripper/include/**",
+        "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_ros/franka_hw/include/**",
+        "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/geometric_shapes/include/**",
+        "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/moveit/moveit_planners/chomp/chomp_interface/include/**",
+        "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/moveit_resources/prbt_ikfast_manipulator_plugin/include/**",
+        "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/moveit/moveit_ros/benchmarks/include/**",
+        "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/moveit/moveit_plugins/moveit_ros_control_interface/include/**",
+        "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/moveit/moveit_ros/move_group/include/**",
+        "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/moveit/moveit_ros/occupancy_map_monitor/include/**",
+        "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/moveit/moveit_ros/robot_interaction/include/**",
+        "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/moveit/moveit_ros/moveit_servo/include/**",
+        "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/moveit/moveit_setup_assistant/include/**",
+        "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/moveit/moveit_plugins/moveit_simple_controller_manager/include/**",
+        "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/moveit_visual_tools/include/**",
+        "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/moveit/moveit_planners/pilz_industrial_motion_planner/include/**",
+        "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/moveit/moveit_planners/pilz_industrial_motion_planner_testutils/include/**",
+        "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/rviz_visual_tools/include/**",
+        "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/srdfdom/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

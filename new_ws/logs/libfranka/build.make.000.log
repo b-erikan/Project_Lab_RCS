@@ -1,0 +1,226 @@
+[35m[1mScanning dependencies of target gtest[0m
+[35m[1mScanning dependencies of target gmock_main[0m
+[35m[1mScanning dependencies of target fmt[0m
+[35m[1mScanning dependencies of target fcimodels[0m
+[35m[1mScanning dependencies of target gmock[0m
+[  0%] [32mBuilding CXX object _deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.o[0m
+[  1%] [32mBuilding CXX object test/CMakeFiles/fcimodels.dir/libfcimodels_stub.cpp.o[0m
+[  2%] [32mBuilding CXX object _deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o[0m
+[  2%] [32mBuilding CXX object googletest/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  3%] [32mBuilding CXX object googletest/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o[0m
+[  4%] [32mBuilding CXX object googletest/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[  5%] [32mBuilding CXX object googletest/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o[0m
+[  5%] [32mBuilding CXX object googletest/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o[0m
+[  5%] [32mBuilding CXX object googletest/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[  6%] [32m[1mLinking CXX shared library libfcimodels.so[0m
+[  6%] Built target fcimodels
+[  6%] [32m[1mLinking CXX static library libfmt.a[0m
+[  6%] Built target fmt
+[35m[1mScanning dependencies of target franka[0m
+[  7%] [32mBuilding CXX object CMakeFiles/franka.dir/src/control_loop.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/franka.dir/src/active_control.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/franka.dir/src/active_motion_generator.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/franka.dir/src/exception.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/franka.dir/src/robot_impl.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/franka.dir/src/control_types.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/franka.dir/src/lowpass_filter.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/franka.dir/src/control_tools.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/franka.dir/src/duration.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/franka.dir/src/model.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/franka.dir/src/active_torque_control.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/franka.dir/src/gripper_state.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/franka.dir/src/model_library.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/franka.dir/src/load_calculations.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/franka.dir/src/library_loader.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/franka.dir/src/errors.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/franka.dir/src/vacuum_gripper.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/franka.dir/src/gripper.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/franka.dir/src/library_downloader.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/franka.dir/src/robot.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/franka.dir/src/network.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/franka.dir/src/vacuum_gripper_state.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/franka.dir/src/logging/cout_logging_sink.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/franka.dir/src/logging/robot_state_logger.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/franka.dir/src/robot_model.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/franka.dir/src/logging/logger.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/franka.dir/src/robot_state.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/franka.dir/src/rate_limiting.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/franka.dir/src/logging/robot_state_log.cpp.o[0m
+[ 23%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[ 23%] Built target gmock_main
+[ 24%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 25%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 25%] Built target gtest
+[ 25%] Built target gmock
+[ 26%] [32m[1mLinking CXX shared library libfranka.so[0m
+[ 26%] Built target franka
+[35m[1mScanning dependencies of target run_all_tests_ubsan[0m
+[35m[1mScanning dependencies of target run_all_tests_asan[0m
+[35m[1mScanning dependencies of target examples_common[0m
+[35m[1mScanning dependencies of target run_all_tests[0m
+[ 27%] [32mBuilding CXX object examples/CMakeFiles/examples_common.dir/examples_common.cpp.o[0m
+[ 28%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/active_torque_control_tests.cpp.o[0m
+[ 28%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/calculations_tests.cpp.o[0m
+[ 28%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/active_motion_generator_tests.cpp.o[0m
+[ 29%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/duration_tests.cpp.o[0m
+[ 29%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/control_loop_tests.cpp.o[0m
+[ 30%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/mock_server.cpp.o[0m
+[ 30%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/rate_limiting_tests.cpp.o[0m
+[ 32%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/control_types_tests.cpp.o[0m
+[ 32%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/control_loop_tests.cpp.o[0m
+[ 33%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/errors_tests.cpp.o[0m
+[ 33%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/gripper_tests.cpp.o[0m
+[ 33%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/lowpass_filter_tests.cpp.o[0m
+[ 34%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/mock_server.cpp.o[0m
+[ 35%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/calculations_tests.cpp.o[0m
+[ 35%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/active_motion_generator_tests.cpp.o[0m
+[ 36%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/gripper_tests.cpp.o[0m
+[ 37%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/robot_command_tests.cpp.o[0m
+[ 38%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/gripper_command_tests.cpp.o[0m
+[ 39%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/helpers.cpp.o[0m
+[ 41%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/active_torque_control_tests.cpp.o[0m
+[ 41%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/robot_model_tests.cpp.o[0m
+[ 42%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/model_tests.cpp.o[0m
+[ 42%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/robot_impl_tests.cpp.o[0m
+[ 42%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/helpers.cpp.o[0m
+[ 42%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/control_types_tests.cpp.o[0m
+[ 43%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/robot_command_tests.cpp.o[0m
+[ 44%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/control_types_tests.cpp.o[0m
+[ 45%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/logging/logging_tests.cpp.o[0m
+[ 46%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/errors_tests.cpp.o[0m
+[ 47%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/robot_impl_tests.cpp.o[0m
+[ 47%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/duration_tests.cpp.o[0m
+[ 48%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/lowpass_filter_tests.cpp.o[0m
+[ 48%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/active_torque_control_tests.cpp.o[0m
+[ 49%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/robot_state_tests.cpp.o[0m
+[ 49%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/gripper_command_tests.cpp.o[0m
+[ 49%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/vacuum_gripper_command_tests.cpp.o[0m
+[ 49%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/robot_tests.cpp.o[0m
+[ 49%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/control_loop_tests.cpp.o[0m
+[ 50%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/logging/robot_state_logger_tests.cpp.o[0m
+[ 50%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/model_tests.cpp.o[0m
+[ 51%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/robot_model_tests.cpp.o[0m
+[ 52%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/rate_limiting_tests.cpp.o[0m
+[ 53%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_ubsan.dir/vacuum_gripper_tests.cpp.o[0m
+[ 54%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/active_motion_generator_tests.cpp.o[0m
+[ 55%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/duration_tests.cpp.o[0m
+[ 56%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/errors_tests.cpp.o[0m
+[ 56%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/calculations_tests.cpp.o[0m
+[ 56%] [32m[1mLinking CXX static library libexamples_common.a[0m
+[ 56%] Built target examples_common
+[35m[1mScanning dependencies of target generate_joint_position_motion_external_control_loop[0m
+[ 57%] [32mBuilding CXX object examples/CMakeFiles/generate_joint_position_motion_external_control_loop.dir/generate_joint_position_motion_external_control_loop.cpp.o[0m
+[ 57%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/robot_state_tests.cpp.o[0m
+[ 58%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/robot_tests.cpp.o[0m
+[ 59%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/vacuum_gripper_tests.cpp.o[0m
+[ 59%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/vacuum_gripper_command_tests.cpp.o[0m
+[ 60%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/gripper_command_tests.cpp.o[0m
+[ 61%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/gripper_tests.cpp.o[0m
+[ 62%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/logging/logging_tests.cpp.o[0m
+[ 62%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/helpers.cpp.o[0m
+[ 63%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/lowpass_filter_tests.cpp.o[0m
+[ 63%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/mock_server.cpp.o[0m
+[ 64%] [32m[1mLinking CXX executable generate_joint_position_motion_external_control_loop[0m
+[ 65%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/model_tests.cpp.o[0m
+[ 66%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/rate_limiting_tests.cpp.o[0m
+[ 66%] [32mBuilding CXX object test/CMakeFiles/run_all_tests.dir/logging/robot_state_logger_tests.cpp.o[0m
+[ 66%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/robot_command_tests.cpp.o[0m
+[ 66%] Built target generate_joint_position_motion_external_control_loop
+[35m[1mScanning dependencies of target generate_consecutive_motions[0m
+[ 66%] [32mBuilding CXX object examples/CMakeFiles/generate_consecutive_motions.dir/generate_consecutive_motions.cpp.o[0m
+[ 67%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/robot_impl_tests.cpp.o[0m
+[ 67%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/robot_model_tests.cpp.o[0m
+[ 68%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/robot_state_tests.cpp.o[0m
+[ 69%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/robot_tests.cpp.o[0m
+[ 69%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/vacuum_gripper_tests.cpp.o[0m
+[ 70%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/vacuum_gripper_command_tests.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable generate_consecutive_motions[0m
+[ 71%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/logging/logging_tests.cpp.o[0m
+[ 72%] [32mBuilding CXX object test/CMakeFiles/run_all_tests_asan.dir/logging/robot_state_logger_tests.cpp.o[0m
+[ 72%] Built target generate_consecutive_motions
+[35m[1mScanning dependencies of target joint_impedance_control[0m
+[35m[1mScanning dependencies of target generate_joint_position_motion[0m
+[ 73%] [32mBuilding CXX object examples/CMakeFiles/joint_impedance_control.dir/joint_impedance_control.cpp.o[0m
+[ 74%] [32mBuilding CXX object examples/CMakeFiles/generate_joint_position_motion.dir/generate_joint_position_motion.cpp.o[0m
+[35m[1mScanning dependencies of target generate_cartesian_velocity_motion_external_control_loop[0m
+[35m[1mScanning dependencies of target motion_with_control[0m
+[ 74%] [32mBuilding CXX object examples/CMakeFiles/generate_cartesian_velocity_motion_external_control_loop.dir/generate_cartesian_velocity_motion_external_control_loop.cpp.o[0m
+[ 74%] [32mBuilding CXX object examples/CMakeFiles/motion_with_control.dir/motion_with_control.cpp.o[0m
+[35m[1mScanning dependencies of target generate_cartesian_pose_motion_external_control_loop[0m
+[ 75%] [32mBuilding CXX object examples/CMakeFiles/generate_cartesian_pose_motion_external_control_loop.dir/generate_cartesian_pose_motion_external_control_loop.cpp.o[0m
+[35m[1mScanning dependencies of target generate_cartesian_pose_motion[0m
+[ 76%] [32mBuilding CXX object examples/CMakeFiles/generate_cartesian_pose_motion.dir/generate_cartesian_pose_motion.cpp.o[0m
+[35m[1mScanning dependencies of target motion_with_control_external_control_loop[0m
+[ 77%] [32mBuilding CXX object examples/CMakeFiles/motion_with_control_external_control_loop.dir/motion_with_control_external_control_loop.cpp.o[0m
+[35m[1mScanning dependencies of target generate_cartesian_velocity_motion[0m
+[ 78%] [32mBuilding CXX object examples/CMakeFiles/generate_cartesian_velocity_motion.dir/generate_cartesian_velocity_motion.cpp.o[0m
+[35m[1mScanning dependencies of target force_control[0m
+[ 79%] [32mBuilding CXX object examples/CMakeFiles/force_control.dir/force_control.cpp.o[0m
+[ 79%] [32m[1mLinking CXX executable generate_joint_position_motion[0m
+[35m[1mScanning dependencies of target echo_robot_state[0m
+[ 80%] [32mBuilding CXX object examples/CMakeFiles/echo_robot_state.dir/echo_robot_state.cpp.o[0m
+[35m[1mScanning dependencies of target communication_test[0m
+[ 80%] [32m[1mLinking CXX executable joint_impedance_control[0m
+[ 80%] [32mBuilding CXX object examples/CMakeFiles/communication_test.dir/communication_test.cpp.o[0m
+[ 80%] Built target generate_joint_position_motion
+[ 81%] [32m[1mLinking CXX executable generate_cartesian_velocity_motion_external_control_loop[0m
+[ 82%] [32m[1mLinking CXX executable motion_with_control[0m
+[35m[1mScanning dependencies of target grasp_object[0m
+[ 83%] [32mBuilding CXX object examples/CMakeFiles/grasp_object.dir/grasp_object.cpp.o[0m
+[35m[1mScanning dependencies of target joint_point_to_point_motion[0m
+[35m[1mScanning dependencies of target generate_elbow_motion[0m
+[ 83%] [32m[1mLinking CXX executable generate_cartesian_pose_motion_external_control_loop[0m
+[ 84%] [32mBuilding CXX object examples/CMakeFiles/joint_point_to_point_motion.dir/joint_point_to_point_motion.cpp.o[0m
+[ 85%] [32mBuilding CXX object examples/CMakeFiles/generate_elbow_motion.dir/generate_elbow_motion.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable generate_cartesian_pose_motion[0m
+[ 85%] Built target joint_impedance_control
+[35m[1mScanning dependencies of target generate_joint_velocity_motion[0m
+[ 85%] Built target generate_cartesian_velocity_motion_external_control_loop
+[35m[1mScanning dependencies of target generate_joint_velocity_motion_external_control_loop[0m
+[35m[1mScanning dependencies of target print_joint_poses[0m
+[ 85%] [32mBuilding CXX object examples/CMakeFiles/generate_joint_velocity_motion.dir/generate_joint_velocity_motion.cpp.o[0m
+[ 85%] Built target motion_with_control
+[ 86%] [32mBuilding CXX object examples/CMakeFiles/generate_joint_velocity_motion_external_control_loop.dir/generate_joint_velocity_motion_external_control_loop.cpp.o[0m
+[ 87%] [32mBuilding CXX object examples/CMakeFiles/print_joint_poses.dir/print_joint_poses.cpp.o[0m
+[35m[1mScanning dependencies of target vacuum_object[0m
+[ 87%] Built target generate_cartesian_pose_motion_external_control_loop
+[35m[1mScanning dependencies of target cartesian_impedance_control[0m
+[ 88%] [32mBuilding CXX object examples/CMakeFiles/vacuum_object.dir/vacuum_object.cpp.o[0m
+[ 88%] Built target generate_cartesian_pose_motion
+[ 88%] [32mBuilding CXX object examples/CMakeFiles/cartesian_impedance_control.dir/cartesian_impedance_control.cpp.o[0m
+[ 89%] [32m[1mLinking CXX executable generate_cartesian_velocity_motion[0m
+[35m[1mScanning dependencies of target logging_example[0m
+[ 89%] [32mBuilding CXX object examples/utility_examples/CMakeFiles/logging_example.dir/logging_example.cpp.o[0m
+[ 89%] [32m[1mLinking CXX executable echo_robot_state[0m
+[ 89%] Built target generate_cartesian_velocity_motion
+[ 90%] [32m[1mLinking CXX executable grasp_object[0m
+[ 90%] [32m[1mLinking CXX executable motion_with_control_external_control_loop[0m
+[ 90%] Built target echo_robot_state
+[ 90%] Built target motion_with_control_external_control_loop
+[ 90%] Built target grasp_object
+[ 91%] [32m[1mLinking CXX executable vacuum_object[0m
+[ 91%] [32m[1mLinking CXX executable print_joint_poses[0m
+[ 92%] [32m[1mLinking CXX executable logging_example[0m
+[ 92%] Built target vacuum_object
+[ 92%] Built target print_joint_poses
+[ 93%] [32m[1mLinking CXX executable joint_point_to_point_motion[0m
+[ 94%] [32m[1mLinking CXX executable communication_test[0m
+[ 94%] Built target logging_example
+[ 94%] [32m[1mLinking CXX executable generate_elbow_motion[0m
+[ 95%] [32m[1mLinking CXX executable force_control[0m
+[ 96%] [32m[1mLinking CXX executable generate_joint_velocity_motion[0m
+[ 96%] Built target joint_point_to_point_motion
+[ 96%] Built target communication_test
+[ 96%] Built target force_control
+[ 96%] Built target generate_elbow_motion
+[ 96%] [32m[1mLinking CXX executable generate_joint_velocity_motion_external_control_loop[0m
+[ 96%] Built target generate_joint_velocity_motion
+[ 96%] Built target generate_joint_velocity_motion_external_control_loop
+[ 97%] [32m[1mLinking CXX executable cartesian_impedance_control[0m
+[ 97%] Built target cartesian_impedance_control
+[ 98%] [32m[1mLinking CXX executable run_all_tests[0m
+[ 98%] Built target run_all_tests
+[100%] [32m[1mLinking CXX executable run_all_tests_asan[0m
+[100%] Built target run_all_tests_asan
+[100%] [32m[1mLinking CXX executable run_all_tests_ubsan[0m
+[100%] Built target run_all_tests_ubsan

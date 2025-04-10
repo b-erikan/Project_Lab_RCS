@@ -1,0 +1,126 @@
+[  1%] Built target fmt
+[ 19%] Built target franka
+[ 20%] Built target gtest
+[ 22%] Built target fcimodels
+[ 24%] Built target gmock_main
+[ 26%] Built target gmock
+[ 40%] Built target run_all_tests_ubsan
+[ 55%] Built target run_all_tests_asan
+[ 70%] Built target run_all_tests
+[ 71%] Built target examples_common
+[ 73%] Built target generate_joint_position_motion_external_control_loop
+[ 74%] Built target generate_consecutive_motions
+[ 75%] Built target joint_impedance_control
+[ 76%] Built target generate_joint_position_motion
+[ 77%] Built target generate_cartesian_velocity_motion_external_control_loop
+[ 78%] Built target motion_with_control
+[ 79%] Built target generate_cartesian_pose_motion_external_control_loop
+[ 80%] Built target generate_cartesian_pose_motion
+[ 81%] Built target motion_with_control_external_control_loop
+[ 83%] Built target generate_cartesian_velocity_motion
+[ 85%] Built target force_control
+[ 86%] Built target echo_robot_state
+[ 87%] Built target communication_test
+[ 89%] Built target grasp_object
+[ 91%] Built target joint_point_to_point_motion
+[ 92%] Built target generate_elbow_motion
+[ 93%] Built target generate_joint_velocity_motion
+[ 94%] Built target generate_joint_velocity_motion_external_control_loop
+[ 95%] Built target print_joint_poses
+[ 97%] Built target vacuum_object
+[ 98%] Built target cartesian_impedance_control
+[100%] Built target logging_example
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/lib/libfranka.so.0.15.0
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/lib/libfranka.so.0.15
+-- Set runtime path of "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/lib/libfranka.so.0.15.0" to ""
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/lib/libfranka.so
+-- Up-to-date: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/franka
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/franka/logging
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/franka/logging/cout_logging_sink.hpp
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/franka/logging/logger.hpp
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/franka/logging/logging_sink_interface.hpp
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/franka/logging/robot_state_log.hpp
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/franka/robot_model.h
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/franka/commands
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/franka/commands/get_robot_model_command.hpp
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/franka/active_torque_control.h
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/franka/gripper_state.h
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/franka/control_types.h
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/franka/errors.h
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/franka/active_control.h
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/franka/gripper.h
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/franka/robot_model_base.h
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/franka/lowpass_filter.h
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/franka/exception.h
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/franka/vacuum_gripper_state.h
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/franka/robot.h
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/franka/duration.h
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/franka/robot_state.h
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/franka/rate_limiting.h
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/franka/control_tools.h
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/franka/model.h
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/franka/active_motion_generator.h
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/franka/active_control_base.h
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/franka/vacuum_gripper.h
+-- Up-to-date: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/research_interface
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/research_interface/robot
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/research_interface/robot/rbk_types.h
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/research_interface/robot/error.h
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/research_interface/robot/service_traits.h
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/research_interface/robot/service_types.h
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/research_interface/gripper
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/research_interface/gripper/types.h
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/research_interface/vacuum_gripper
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/include/research_interface/vacuum_gripper/types.h
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/lib/cmake/Franka/FrankaConfig.cmake
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/lib/cmake/Franka/FrankaConfigVersion.cmake
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/lib/cmake/Franka/FrankaTargets.cmake
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/lib/cmake/Franka/FrankaTargets-release.cmake
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/cartesian_impedance_control
+-- Set runtime path of "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/cartesian_impedance_control" to ""
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/communication_test
+-- Set runtime path of "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/communication_test" to ""
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/echo_robot_state
+-- Set runtime path of "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/echo_robot_state" to ""
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/force_control
+-- Set runtime path of "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/force_control" to ""
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/generate_cartesian_pose_motion
+-- Set runtime path of "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/generate_cartesian_pose_motion" to ""
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/generate_cartesian_pose_motion_external_control_loop
+-- Set runtime path of "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/generate_cartesian_pose_motion_external_control_loop" to ""
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/generate_cartesian_velocity_motion
+-- Set runtime path of "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/generate_cartesian_velocity_motion" to ""
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/generate_cartesian_velocity_motion_external_control_loop
+-- Set runtime path of "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/generate_cartesian_velocity_motion_external_control_loop" to ""
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/generate_consecutive_motions
+-- Set runtime path of "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/generate_consecutive_motions" to ""
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/generate_elbow_motion
+-- Set runtime path of "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/generate_elbow_motion" to ""
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/generate_joint_position_motion
+-- Set runtime path of "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/generate_joint_position_motion" to ""
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/generate_joint_position_motion_external_control_loop
+-- Set runtime path of "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/generate_joint_position_motion_external_control_loop" to ""
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/generate_joint_velocity_motion
+-- Set runtime path of "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/generate_joint_velocity_motion" to ""
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/generate_joint_velocity_motion_external_control_loop
+-- Set runtime path of "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/generate_joint_velocity_motion_external_control_loop" to ""
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/grasp_object
+-- Set runtime path of "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/grasp_object" to ""
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/joint_impedance_control
+-- Set runtime path of "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/joint_impedance_control" to ""
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/joint_point_to_point_motion
+-- Set runtime path of "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/joint_point_to_point_motion" to ""
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/motion_with_control
+-- Set runtime path of "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/motion_with_control" to ""
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/motion_with_control_external_control_loop
+-- Set runtime path of "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/motion_with_control_external_control_loop" to ""
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/print_joint_poses
+-- Set runtime path of "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/print_joint_poses" to ""
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/vacuum_object
+-- Set runtime path of "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/vacuum_object" to ""
+-- Installing: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/logging_example
+-- Set runtime path of "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/bin/logging_example" to ""

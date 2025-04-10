@@ -1,0 +1,5 @@
+[31m[1mCMake Error[0m at /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/CMakeLists.txt:149 (target_link_libraries):
+  Cannot specify link libraries for target "franka_example_nodes_node" which
+  is not built by this project.
+
+

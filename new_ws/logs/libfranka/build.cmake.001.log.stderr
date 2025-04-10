@@ -1,0 +1,39 @@
+[31m[1mCMake Error[0m at /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/libfranka/CMakeLists.txt:79 (add_subdirectory):
+  The source directory
+
+    /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/libfranka/common
+
+  does not contain a CMakeLists.txt file.
+
+
+[31m[1mCMake Error[0m at /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/libfranka/CMakeLists.txt:160 (install):
+  install TARGETS given target "libfranka-common" which does not exist.
+
+
+[31m[1mCMake Error[0m at /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/libfranka/CMakeLists.txt:170 (export):
+  export Export set "FrankaTargets" not found.
+
+
+[31m[1mCMake Error[0m at /usr/share/cmake-3.16/Modules/ExternalProject.cmake:1706 (file):
+  file problem creating directory:
+  /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/libfranka/3rdparty
+[36mCall Stack (most recent call first):[0m
+  /usr/share/cmake-3.16/Modules/ExternalProject.cmake:3188 (_ep_set_directories)
+  CMakeLists.txt:5 (ExternalProject_Add)
+
+
+[31m[1mCMake Error[0m at /usr/share/cmake-3.16/Modules/ExternalProject.cmake:1708 (message):
+  dir
+  '/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/libfranka/3rdparty'
+  does not exist after file(MAKE_DIRECTORY)
+[36mCall Stack (most recent call first):[0m
+  /usr/share/cmake-3.16/Modules/ExternalProject.cmake:3188 (_ep_set_directories)
+  CMakeLists.txt:5 (ExternalProject_Add)
+
+
+[31m[1mCMake Error[0m at /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/libfranka/cmake/SetupGoogleTest.cmake:8 (message):
+  Running CMake for Google Test failed: 1
+[36mCall Stack (most recent call first):[0m
+  test/CMakeLists.txt:10 (include)
+
+

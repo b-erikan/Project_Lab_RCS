@@ -1,0 +1,29 @@
+Not searching for unused variables given on the command line.
+[36m--[0m The CXX compiler identification is GNU 9.4.0
+[36m--[0m Check for working CXX compiler: /usr/bin/c++
+[36m--[0m Check for working CXX compiler: /usr/bin/c++ -- works
+[36m--[0m Detecting CXX compiler ABI info
+[36m--[0m Detecting CXX compiler ABI info - done
+[36m--[0m Detecting CXX compile features
+[36m--[0m Detecting CXX compile features - done
+[36m--[0m Setting build type to 'Release' as none was specified.
+[36m--[0m Found Eigen3: /usr/include/eigen3
+[31m[1mCMake Error[0m at /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/libfranka/CMakeLists.txt:52 (find_package):
+  By not providing "Findpinocchio.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "pinocchio", but CMake did not find one.
+
+  Could not find a package configuration file provided by "pinocchio" with
+  any of the following names:
+
+    pinocchioConfig.cmake
+    pinocchio-config.cmake
+
+  Add the installation prefix of "pinocchio" to CMAKE_PREFIX_PATH or set
+  "pinocchio_DIR" to a directory containing one of the above files.  If
+  "pinocchio" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+[36m--[0m Configuring incomplete, errors occurred!
+See also "/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/build/libfranka/CMakeFiles/CMakeOutput.log".

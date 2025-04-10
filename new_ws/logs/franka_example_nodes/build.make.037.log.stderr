@@ -1,0 +1,10 @@
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:[m[K In member function ‘[01m[Kbool Manipulator::goToPose(geometry_msgs::Pose)[m[K’:
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:58:58:[m[K [01;31m[Kerror: [m[K‘[01m[Krvt[m[K’ has not been declared
+   58 |         visual_tools.publishText(text_pose, "Pose Goal", [01;31m[Krvt[m[K::WHITE, rvt::XLARGE);
+      |                                                          [01;31m[K^~~[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:58:70:[m[K [01;31m[Kerror: [m[K‘[01m[Krvt[m[K’ has not been declared
+   58 |         visual_tools.publishText(text_pose, "Pose Goal", rvt::WHITE, [01;31m[Krvt[m[K::XLARGE);
+      |                                                                      [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/gripper_control.dir/build.make:63: CMakeFiles/gripper_control.dir/src/gripper_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:244: CMakeFiles/gripper_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

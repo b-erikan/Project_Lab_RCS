@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target print_franka_states[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/print_franka_states.dir/src/print_franka_states.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/.private/my_franka_app/lib/my_franka_app/print_franka_states[0m
+[100%] Built target print_franka_states

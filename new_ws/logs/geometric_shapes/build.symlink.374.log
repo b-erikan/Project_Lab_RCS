@@ -1,0 +1,5 @@
+Symlinking /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/lib/libgeometric_shapes.so
+Symlinking /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/lib/libgeometric_shapes.so.0.7.7
+Symlinking /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/lib/pkgconfig/geometric_shapes.pc
+Symlinking /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/share/geometric_shapes/cmake/geometric_shapesConfig-version.cmake
+Symlinking /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/share/geometric_shapes/cmake/geometric_shapesConfig.cmake

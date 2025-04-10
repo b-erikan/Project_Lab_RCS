@@ -1,0 +1,2 @@
+franka_ros/franka_ros
+/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/.private/franka_ros/cmake.lock /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/./cmake.lock

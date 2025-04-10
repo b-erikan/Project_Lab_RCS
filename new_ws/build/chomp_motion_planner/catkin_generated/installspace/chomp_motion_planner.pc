@@ -1,0 +1,8 @@
+prefix=/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/install
+
+Name: chomp_motion_planner
+Description: Description of chomp_motion_planner
+Version: 1.1.16
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lchomp_motion_planner
+Requires: 

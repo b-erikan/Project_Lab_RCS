@@ -1,0 +1,8 @@
+prefix=/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/install
+
+Name: moveit_fake_controller_manager
+Description: Description of moveit_fake_controller_manager
+Version: 1.1.16
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: moveit_core moveit_ros_planning roscpp

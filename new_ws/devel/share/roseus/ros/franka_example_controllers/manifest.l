@@ -1,0 +1,1 @@
+/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/.private/franka_example_controllers/share/roseus/ros/franka_example_controllers/manifest.l

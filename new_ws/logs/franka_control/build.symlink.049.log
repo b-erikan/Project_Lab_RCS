@@ -1,0 +1,6 @@
+Symlinking /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/lib/libfranka_state_controller.so
+Symlinking /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/lib/pkgconfig/franka_control.pc
+Symlinking /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/lib/franka_control/franka_combined_control_node
+Symlinking /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/lib/franka_control/franka_control_node
+Symlinking /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/share/franka_control/cmake/franka_controlConfig.cmake
+Symlinking /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/share/franka_control/cmake/franka_controlConfig-version.cmake

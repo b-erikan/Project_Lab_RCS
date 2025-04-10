@@ -1,0 +1,8 @@
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:[m[K In member function ‘[01m[Kbool Manipulator::goToPoseCartesian(geometry_msgs::Pose)[m[K’:
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:115:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoints[m[K’ was not declared in this scope; did you mean ‘[01m[Kprintf[m[K’?
+  115 | for (size_t i = 1; i < [01;31m[Kpoints[m[K.size(); ++i) {
+      |                        [01;31m[K^~~~~~[m[K
+      |                        [32m[Kprintf[m[K
+make[2]: *** [CMakeFiles/gripper_control.dir/build.make:63: CMakeFiles/gripper_control.dir/src/gripper_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:244: CMakeFiles/gripper_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

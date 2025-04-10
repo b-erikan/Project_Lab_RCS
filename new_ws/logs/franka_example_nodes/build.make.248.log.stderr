@@ -1,0 +1,33 @@
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:279:40:[m[K [01;31m[Kerror: [m[Kinvalid character '\' in raw string delimiter
+  279 |               std::regex posPattern([01;31m[KR[m[K"\(\s*([-\d.]+)\s*,\s*([-\d.]+)\s*,\s*([-\d.]+)\s*\)");
+      |                                     [01;31m[K^[m[K   
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:279:37:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[KR[m[K’ in program
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:[m[K In member function ‘[01m[Kbool Manipulator::goToPoseCartesian(geometry_msgs::Pose)[m[K’:
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:155:108:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble moveit::planning_interface::MoveGroupInterface::computeCartesianPath(const std::vector<geometry_msgs::Pose_<std::allocator<void> > >&, double, double, moveit_msgs::RobotTrajectory&, bool, moveit_msgs::MoveItErrorCodes*)[m[K’ is deprecated: Drop jump_threshold [[01;35m[K-Wdeprecated-declarations[m[K]
+  155 |   move_group_interface.computeCartesianPath(waypoints, eef_step, jump_threshold, cartesian_plan.trajectory_[01;35m[K)[m[K;
+      |                                                                                                            [01;35m[K^[m[K
+In file included from [01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:1[m[K:
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:783:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  783 |   [01;36m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::Pose>& waypoints, double eef_step, double /*jump_threshold*/,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:[m[K In member function ‘[01m[Kvoid Manipulator::scan()[m[K’:
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:279:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kregex[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  279 |               std::[01;31m[Kregex[m[K posPattern(R"\(\s*([-\d.]+)\s*,\s*([-\d.]+)\s*,\s*([-\d.]+)\s*\)");
+      |                    [01;31m[K^~~~~[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:280:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ksmatch[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Ksearch[m[K’?
+  280 |               std::[01;31m[Ksmatch[m[K match;
+      |                    [01;31m[K^~~~~~[m[K
+      |                    [32m[Ksearch[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:283:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kregex_search[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  283 |               if (std::[01;31m[Kregex_search[m[K(line, match, posPattern)) {
+      |                        [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:283:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatch[m[K’ was not declared in this scope; did you mean ‘[01m[Krpmatch[m[K’?
+  283 |               if (std::regex_search(line, [01;31m[Kmatch[m[K, posPattern)) {
+      |                                           [01;31m[K^~~~~[m[K
+      |                                           [32m[Krpmatch[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:283:50:[m[K [01;31m[Kerror: [m[K‘[01m[KposPattern[m[K’ was not declared in this scope
+  283 |               if (std::regex_search(line, match, [01;31m[KposPattern[m[K)) {
+      |                                                  [01;31m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/gripper_control.dir/build.make:63: CMakeFiles/gripper_control.dir/src/gripper_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:244: CMakeFiles/gripper_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

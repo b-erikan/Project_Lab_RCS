@@ -1,0 +1,6 @@
+Symlinking /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/lib/libsrdfdom.so.0.6.4
+Symlinking /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/lib/libsrdfdom.so
+Symlinking /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/lib/python3/dist-packages/srdfdom/__init__.py
+Symlinking /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/lib/pkgconfig/srdfdom.pc
+Symlinking /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/share/srdfdom/cmake/srdfdomConfig-version.cmake
+Symlinking /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/share/srdfdom/cmake/srdfdomConfig.cmake

@@ -1,0 +1,1 @@
+/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/.private/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig-version.cmake

@@ -1,0 +1,1 @@
+/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/.private/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/moveit_ros_control_interfaceConfig-version.cmake

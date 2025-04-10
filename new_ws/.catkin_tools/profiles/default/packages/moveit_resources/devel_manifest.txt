@@ -1,0 +1,2 @@
+moveit_resources/moveit_resources
+/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/.private/moveit_resources/cmake.lock /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/./cmake.lock

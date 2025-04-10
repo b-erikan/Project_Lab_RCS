@@ -1,0 +1,8 @@
+[33m[1mCMake Warning[0m at /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/libfranka/CMakeLists.txt:258 (MESSAGE):
+  Could not find clang-format
+
+
+[33m[1mCMake Warning[0m at /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/libfranka/CMakeLists.txt:286 (MESSAGE):
+  Could not find clang-tidy
+
+

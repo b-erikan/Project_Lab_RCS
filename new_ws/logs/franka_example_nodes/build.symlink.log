@@ -1,0 +1,4 @@
+Symlinking /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/lib/pkgconfig/franka_example_nodes.pc
+Symlinking /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/lib/franka_example_nodes/gripper_control
+Symlinking /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/share/franka_example_nodes/cmake/franka_example_nodesConfig-version.cmake
+Symlinking /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/share/franka_example_nodes/cmake/franka_example_nodesConfig.cmake

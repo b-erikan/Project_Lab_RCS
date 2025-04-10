@@ -1,0 +1,7 @@
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:[m[K In member function ‘[01m[Kbool Manipulator::goToPose(geometry_msgs::Pose)[m[K’:
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:64:18:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(std::istream {aka std::basic_istream<char>}) ()[m[K’
+   64 |         std::cin([01;31m[K)[m[K;
+      |                  [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/gripper_control.dir/build.make:63: CMakeFiles/gripper_control.dir/src/gripper_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:244: CMakeFiles/gripper_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

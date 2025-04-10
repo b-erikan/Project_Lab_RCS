@@ -1,0 +1,4 @@
+Symlinking /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/lib/pkgconfig/my_franka_app.pc
+Symlinking /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/lib/my_franka_app/print_franka_states
+Symlinking /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/share/my_franka_app/cmake/my_franka_appConfig-version.cmake
+Symlinking /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/share/my_franka_app/cmake/my_franka_appConfig.cmake

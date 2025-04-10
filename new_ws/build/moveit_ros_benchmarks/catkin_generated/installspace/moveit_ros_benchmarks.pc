@@ -1,0 +1,8 @@
+prefix=/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/install
+
+Name: moveit_ros_benchmarks
+Description: Description of moveit_ros_benchmarks
+Version: 1.1.16
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lmoveit_ros_benchmarks
+Requires: tf2_eigen moveit_ros_planning moveit_ros_warehouse roscpp

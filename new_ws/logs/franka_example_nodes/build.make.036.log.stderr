@@ -1,0 +1,119 @@
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:45:26:[m[K [01;31m[Kerror: [m[Kin-class initialization of static data member ‘[01m[Kconst string Manipulator::PLANNING_GROUP[m[K’ of non-literal type
+   45 | static const std::string [01;31m[KPLANNING_GROUP[m[K = "panda_arm";
+      |                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:45:43:[m[K [01;31m[Kerror: [m[Ktemporary of non-literal type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} in a constant expression
+   45 | static const std::string PLANNING_GROUP = [01;31m[K"panda_arm"[m[K;
+      |                                           [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/9/array:39[m[K,
+                 from [01m[K/usr/include/c++/9/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/moveit/moveit_core/macros/include/moveit/macros/declare_ptr.h:37[m[K,
+                 from [01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/moveit/moveit_core/macros/include/moveit/macros/class_forward.h:39[m[K,
+                 from [01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:40[m[K,
+                 from [01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/basic_string.h:81:11:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ is not literal because:
+   81 |     class [01;36m[Kbasic_string[m[K
+      |           [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/basic_string.h:81:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ has a non-trivial destructor
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:46:69:[m[K [01;31m[Kerror: [m[K‘[01m[KPLANNING_GROUP[m[K’ is not a type
+   46 | moveit::planning_interface::MoveGroupInterface move_group_interface([01;31m[KPLANNING_GROUP[m[K);
+      |                                                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:48:58:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface Manipulator::move_group_interface(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   48 | const moveit::core::JointModelGroup* joint_model_group = [01;31m[Kmove_group_interface[m[K.getCurrentState()->getJointModelGroup(PLANNING_GROUP);
+      |                                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/opt/ros/noetic/include/urdf/model.h:50[m[K,
+                 from [01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/robot_model.h:44[m[K,
+                 from [01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/moveit/moveit_core/robot_state/include/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:1[m[K:
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:[m[K In constructor ‘[01m[KManipulator::Manipulator()[m[K’:
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:19:54:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface Manipulator::move_group_interface(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   19 |     ROS_INFO_NAMED("tutorial", "Planning frame: %s", [01;31m[Kmove_group_interface[m[K.getPlanningFrame().c_str());
+      |                                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:112:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  112 | #define ROS_INFO_NAMED(name, ...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, std::string(ROSCONSOLE_NAME_PREFIX) + "." + name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:19:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO_NAMED[m[K’
+   19 |     [01;36m[KROS_INFO_NAMED[m[K("tutorial", "Planning frame: %s", move_group_interface.getPlanningFrame().c_str());
+      |     [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:20:57:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface Manipulator::move_group_interface(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   20 |     ROS_INFO_NAMED("tutorial", "End effector link: %s", [01;31m[Kmove_group_interface[m[K.getEndEffectorLink().c_str());
+      |                                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:112:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  112 | #define ROS_INFO_NAMED(name, ...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, std::string(ROSCONSOLE_NAME_PREFIX) + "." + name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:20:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO_NAMED[m[K’
+   20 |     [01;36m[KROS_INFO_NAMED[m[K("tutorial", "End effector link: %s", move_group_interface.getEndEffectorLink().c_str());
+      |     [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:22:15:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface Manipulator::move_group_interface(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   22 |     std::copy([01;31m[Kmove_group_interface[m[K.getJointModelGroupNames().begin(),move_group_interface.getJointModelGroupNames().end(), std::ostream_iterator<std::string>(std::cout, ", "));
+      |               [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:22:70:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface Manipulator::move_group_interface(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   22 |     std::copy(move_group_interface.getJointModelGroupNames().begin(),[01;31m[Kmove_group_interface[m[K.getJointModelGroupNames().end(), std::ostream_iterator<std::string>(std::cout, ", "));
+      |                                                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:[m[K In member function ‘[01m[Kbool Manipulator::goToPose(geometry_msgs::Pose)[m[K’:
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:27:5:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface Manipulator::move_group_interface(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   27 |     [01;31m[Kmove_group_interface[m[K.setPoseTarget(target_pose);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:29:21:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface Manipulator::move_group_interface(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   29 |     bool success = ([01;31m[Kmove_group_interface[m[K.plan(my_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:29:42:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kplan[m[K’
+   29 |     bool success = [34m[K([m[Kmove_group_interface.[01;31m[Kp[m[K[32m[Klan[m[K(my_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+      |                    [34m[K~[m[K                     [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                          [32m[K)[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:32:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisual_tools[m[K’ was not declared in this scope; did you mean ‘[01m[Krviz_visual_tools[m[K’?
+   32 |         [01;31m[Kvisual_tools[m[K.publishAxisLabeled(target_pose1, "pose1");
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+      |         [32m[Krviz_visual_tools[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:32:41:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose1[m[K’ was not declared in this scope; did you mean ‘[01m[Ktarget_pose[m[K’?
+   32 |         visual_tools.publishAxisLabeled([01;31m[Ktarget_pose1[m[K, "pose1");
+      |                                         [01;31m[K^~~~~~~~~~~~[m[K
+      |                                         [32m[Ktarget_pose[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:33:34:[m[K [01;31m[Kerror: [m[K‘[01m[Ktext_pose[m[K’ was not declared in this scope; did you mean ‘[01m[Ktarget_pose[m[K’?
+   33 |         visual_tools.publishText([01;31m[Ktext_pose[m[K, "Pose Goal", rvt::WHITE, rvt::XLARGE);
+      |                                  [01;31m[K^~~~~~~~~[m[K
+      |                                  [32m[Ktarget_pose[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:33:58:[m[K [01;31m[Kerror: [m[K‘[01m[Krvt[m[K’ has not been declared
+   33 |         visual_tools.publishText(text_pose, "Pose Goal", [01;31m[Krvt[m[K::WHITE, rvt::XLARGE);
+      |                                                          [01;31m[K^~~[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:33:70:[m[K [01;31m[Kerror: [m[K‘[01m[Krvt[m[K’ has not been declared
+   33 |         visual_tools.publishText(text_pose, "Pose Goal", rvt::WHITE, [01;31m[Krvt[m[K::XLARGE);
+      |                                                                      [01;31m[K^~~[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:36:9:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface Manipulator::move_group_interface(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   36 |         [01;31m[Kmove_group_interface[m[K.setMaxVelocityScalingFactor(0.1);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:37:9:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface Manipulator::move_group_interface(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   37 |         [01;31m[Kmove_group_interface[m[K.setMaxAccelerationScalingFactor(0.1);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:38:9:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface Manipulator::move_group_interface(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   38 |         [01;31m[Kmove_group_interface[m[K.execute(my_plan);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:40:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   40 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+make[2]: *** [CMakeFiles/gripper_control.dir/build.make:63: CMakeFiles/gripper_control.dir/src/gripper_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:244: CMakeFiles/gripper_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

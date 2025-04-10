@@ -1,0 +1,8 @@
+prefix=/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/install
+
+Name: franka_example_nodes
+Description: Description of franka_example_nodes
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lfranka_example_nodes
+Requires: roscpp moveit_commander action_lib franka_gripper moveit_core moveit_ros_planning_interface moveit_visual_tools geometry_msgs moveit_msgs shape_msgs std_msgs tf2 tf2_ros tf2_geometry_msgs

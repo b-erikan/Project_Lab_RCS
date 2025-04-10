@@ -1,0 +1,10 @@
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:98:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit::planning_interface::MoveGroupInterface FrankaGripperControl::move_group_[m[K’ is private within this context
+   98 |         geometry_msgs::Pose current_pose = gripper_control.[01;31m[Kmove_group_[m[K.getCurrentPose().pose;
+      |                                                            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:86:52:[m[K [01;36m[Knote: [m[Kdeclared private here
+   86 |     moveit::planning_interface::MoveGroupInterface [01;36m[Kmove_group_[m[K; // MoveGroup for arm control
+      |                                                    [01;36m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/gripper_control.dir/build.make:63: CMakeFiles/gripper_control.dir/src/gripper_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:239: CMakeFiles/gripper_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

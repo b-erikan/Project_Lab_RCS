@@ -1,0 +1,111 @@
+Not searching for unused variables given on the command line.
+[36m--[0m The CXX compiler identification is GNU 9.4.0
+[36m--[0m Check for working CXX compiler: /usr/bin/c++
+[36m--[0m Check for working CXX compiler: /usr/bin/c++ -- works
+[36m--[0m Detecting CXX compiler ABI info
+[36m--[0m Detecting CXX compiler ABI info - done
+[36m--[0m Detecting CXX compile features
+[36m--[0m Detecting CXX compile features - done
+[36m--[0m Setting build type to 'Release' as none was specified.
+[36m--[0m Found Eigen3: /usr/include/eigen3
+[36m--[0m pinocchio_default FOUND. pinocchio_default at /opt/ros/noetic/lib/libpinocchio_default.so
+[36m--[0m pinocchio_parsers FOUND. pinocchio_parsers at /opt/ros/noetic/lib/libpinocchio_parsers.so
+[36m--[0m pinocchio_collision FOUND. pinocchio_collision at /opt/ros/noetic/lib/libpinocchio_collision.so
+[36m--[0m boost_filesystem FOUND. boost_filesystem at /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+[36m--[0m boost_serialization FOUND. boost_serialization at /usr/lib/x86_64-linux-gnu/libboost_serialization.so
+[36m--[0m boost_system FOUND. boost_system at /usr/lib/x86_64-linux-gnu/libboost_system.so
+[36m--[0m Found Boost: /usr/include (found version "1.71.0") found components: filesystem serialization system
+[36m--[0m eigenpy FOUND. eigenpy at /opt/ros/noetic/lib/x86_64-linux-gnu/libeigenpy.so
+[36m--[0m Checking for NumPy
+[36m--[0m   NUMPY_INCLUDE_DIRS=/usr/lib/python2.7/dist-packages/numpy/core/include
+[36m--[0m   NUMPY_VERSION=1.16.5
+[36m--[0m Found Python2: /usr/bin/python (found version "2.7.18") found components: Interpreter NumPy Development
+[36m--[0m PythonLibraryDirs: /usr/lib/python2.7/config-x86_64-linux-gnu
+[36m--[0m PythonLibVersionString: 2.7.18
+[36m--[0m Python site lib: lib/python2.7/dist-packages
+[36m--[0m Python include dirs: /usr/include/python2.7
+[36m--[0m Checking for NumPy
+[36m--[0m   NUMPY_INCLUDE_DIRS=/usr/lib/python2.7/dist-packages/numpy/core/include
+[36m--[0m   NUMPY_VERSION=1.16.5
+[36m--[0m NumPy include dir: /usr/lib/python2.7/dist-packages/numpy/core/include
+[36m--[0m Found Boost: /usr/include (found version "1.71.0") found components: python38
+[36m--[0m Boost_PYTHON_LIBRARY: /usr/lib/x86_64-linux-gnu/libboost_python38.so
+[36m--[0m Default C++ standard: 201703
+[36m--[0m Minimal C++ standard upgraded to 11
+[36m--[0m C++ standard sufficient: Minimal required 11, currently defined: 17
+[36m--[0m hpp-fcl FOUND. hpp-fcl at /opt/ros/noetic/lib/x86_64-linux-gnu/libhpp-fcl.so
+[36m--[0m Found Boost: /usr/include (found version "1.71.0") found components: chrono serialization filesystem
+[36m--[0m C++ standard sufficient: Minimal required 11, currently defined: 17
+[36m--[0m C++ standard sufficient: Minimal required 11, currently defined: 17
+[36m--[0m Looking for C++ include pthread.h
+[36m--[0m Looking for C++ include pthread.h - found
+[36m--[0m Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[36m--[0m Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[36m--[0m Check if compiler accepts -pthread
+[36m--[0m Check if compiler accepts -pthread - yes
+[36m--[0m Found Threads: TRUE
+[36m--[0m fmt not found. Fetching fmt...
+[36m--[0m {{fmt}} version: 11.0.2
+[36m--[0m Build type: Release
+[36m--[0m The CXX compiler identification is GNU 9.4.0
+[36m--[0m Check for working CXX compiler: /usr/bin/c++
+[36m--[0m Check for working CXX compiler: /usr/bin/c++ -- works
+[36m--[0m Detecting CXX compiler ABI info
+[36m--[0m Detecting CXX compiler ABI info - done
+[36m--[0m Detecting CXX compile features
+[36m--[0m Detecting CXX compile features - done
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/build/libfranka/googletest-download
+Scanning dependencies of target googletest
+[ 11%] Creating directories for 'googletest'
+[ 22%] Performing download step (download, verify and extract) for 'googletest'
+[36m--[0m Downloading...
+   dst='/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/libfranka/3rdparty/googletest-1.8.0.tar.gz'
+   timeout='none'
+[36m--[0m Using src='https://github.com/google/googletest/archive/release-1.8.0.tar.gz'
+[36m--[0m verifying file...
+       file='/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/libfranka/3rdparty/googletest-1.8.0.tar.gz'
+[36m--[0m Downloading... done
+[36m--[0m extracting...
+     src='/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/libfranka/3rdparty/googletest-1.8.0.tar.gz'
+     dst='/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/libfranka/3rdparty/googletest'
+[36m--[0m extracting... [tar xfz]
+[36m--[0m extracting... [analysis]
+[36m--[0m extracting... [rename]
+[36m--[0m extracting... [clean up]
+[36m--[0m extracting... done
+[ 33%] No patch step for 'googletest'
+[ 44%] No update step for 'googletest'
+[ 55%] No configure step for 'googletest'
+[ 66%] No build step for 'googletest'
+[ 77%] No install step for 'googletest'
+[ 88%] No test step for 'googletest'
+[100%] Completed 'googletest'
+[100%] Built target googletest
+[36m--[0m The C compiler identification is GNU 9.4.0
+[36m--[0m Check for working C compiler: /usr/bin/cc
+[36m--[0m Check for working C compiler: /usr/bin/cc -- works
+[36m--[0m Detecting C compiler ABI info
+[36m--[0m Detecting C compiler ABI info - done
+[36m--[0m Detecting C compile features
+[36m--[0m Detecting C compile features - done
+[36m--[0m Found PythonInterp: /usr/bin/python (found version "2.7.18")
+[36m--[0m Performing Test HAVE_ASan
+[36m--[0m Performing Test HAVE_ASan - Success
+[36m--[0m Performing Test HAVE_UBSan
+[36m--[0m Performing Test HAVE_UBSan - Success
+[36m--[0m Performing Test HAVE_TSan
+[36m--[0m Performing Test HAVE_TSan - Failed
+[36m--[0m fmt not found. Fetching fmt...
+[33m[1mCMake Warning[0m at /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/libfranka/CMakeLists.txt:258 (MESSAGE):
+  Could not find clang-format
+
+
+[33m[1mCMake Warning[0m at /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/libfranka/CMakeLists.txt:286 (MESSAGE):
+  Could not find clang-tidy
+
+
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/build/libfranka

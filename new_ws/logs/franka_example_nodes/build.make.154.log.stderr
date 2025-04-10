@@ -1,0 +1,38 @@
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:39:43:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before numeric constant
+   39 |   tf2_ros::Buffer tf_buffer(ros::Duration[34m[K([m[K[01;31m[K1[m[K[32m[K0.0[m[K));
+      |                                          [34m[K~[m[K[01;31m[K^[m[K[32m[K~~~[m[K
+      |                                           [32m[K)[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:39:43:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before numeric constant
+   39 |   tf2_ros::Buffer tf_buffer[34m[K([m[Kros::Duration([01;31m[K1[m[K[32m[K0.0[m[K));
+      |                            [34m[K~[m[K              [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                           [32m[K)[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:39:42:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   39 |   tf2_ros::Buffer tf_buffer(ros::Duration[01;31m[K([m[K10.0));
+      |                                          [01;31m[K^[m[K
+      |                                           [32m[K;[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:39:43:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+   39 |   tf2_ros::Buffer tf_buffer(ros::Duration([01;31m[K10.0[m[K));
+      |                                           [01;31m[K^~~~[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:[m[K In constructor ‘[01m[KManipulator::Manipulator()[m[K’:
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:49:19:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Ktf2_ros::Buffer Manipulator::tf_buffer(...)[m[K’
+   49 |       tf_listener([01;31m[Ktf_buffer[m[K)
+      |                   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:39:19:[m[K [01;36m[Knote: [m[Kdeclared here
+   39 |   tf2_ros::Buffer [01;36m[Ktf_buffer[m[K(ros::Duration(10.0));
+      |                   [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:[m[K In member function ‘[01m[Kgeometry_msgs::Pose Manipulator::transformPose(const Pose&, const string&, const string&)[m[K’:
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:77:5:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Ktf2_ros::Buffer Manipulator::tf_buffer(...)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   77 |     [01;31m[Ktf_buffer[m[K.transform(pose_stamped, transformed_pose, to_frame);
+      |     [01;31m[K^~~~~~~~~[m[K
+      |              [32m[K()[m[K
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:[m[K In member function ‘[01m[Kbool Manipulator::goToPoseCartesian(geometry_msgs::Pose)[m[K’:
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:135:108:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble moveit::planning_interface::MoveGroupInterface::computeCartesianPath(const std::vector<geometry_msgs::Pose_<std::allocator<void> > >&, double, double, moveit_msgs::RobotTrajectory&, bool, moveit_msgs::MoveItErrorCodes*)[m[K’ is deprecated: Drop jump_threshold [[01;35m[K-Wdeprecated-declarations[m[K]
+  135 |   move_group_interface.computeCartesianPath(waypoints, eef_step, jump_threshold, cartesian_plan.trajectory_[01;35m[K)[m[K;
+      |                                                                                                            [01;35m[K^[m[K
+In file included from [01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/franka_example_nodes/src/gripper_control.cpp:1[m[K:
+[01m[K/home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:783:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  783 |   [01;36m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::Pose>& waypoints, double eef_step, double /*jump_threshold*/,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/gripper_control.dir/build.make:63: CMakeFiles/gripper_control.dir/src/gripper_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:244: CMakeFiles/gripper_control.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

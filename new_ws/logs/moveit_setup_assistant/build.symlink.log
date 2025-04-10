@@ -1,0 +1,9 @@
+Symlinking /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/lib/libmoveit_setup_assistant_widgets.so
+Symlinking /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/lib/libmoveit_setup_assistant_tools.so
+Symlinking /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/lib/libmoveit_setup_assistant_widgets.so.1.1.16
+Symlinking /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/lib/libmoveit_setup_assistant_tools.so.1.1.16
+Symlinking /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/lib/pkgconfig/moveit_setup_assistant.pc
+Symlinking /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/lib/moveit_setup_assistant/collisions_updater
+Symlinking /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/lib/moveit_setup_assistant/moveit_setup_assistant
+Symlinking /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/share/moveit_setup_assistant/cmake/moveit_setup_assistantConfig.cmake
+Symlinking /home/sysgen/Project_Lab_P5/Project_Lab_CAS/new_ws/devel/share/moveit_setup_assistant/cmake/moveit_setup_assistantConfig-version.cmake
