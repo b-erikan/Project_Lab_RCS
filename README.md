@@ -70,7 +70,7 @@ The following ROS packages are required:
 
 ## Usage
 
-2. Ensure Franka Control Interface (FCI) is enabled.
+1. Ensure Franka Control Interface (FCI) is enabled.
 
 2. Launch the Franka robot drivers and MoveIt:
    ```bash
