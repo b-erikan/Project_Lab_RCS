@@ -51,35 +51,19 @@ The following ROS packages are required:
    ```bash
    sudo apt install ros-<distro>-moveit
    ```
-2. Install libfranka:
-```bash
-   cd ~/catkin_ws/src
-   git clone --recursive https://github.com/frankaemika/libfranka.git
-   cd libfranka
-   mkdir build && cd build
-   cmake -DCMAKE_BUILD_TYPE=Release ..
-   cmake --build .
-   sudo make install
-   ```
-3. Install Franka_ros:
-   ```bash
-   cd ~/catkin_ws/src
-   git clone --recursive https://github.com/frankaemika/franka_ros.git
-   ```
-
-4. Clone this repository into your catkin workspace:
+2. Clone this repository into your catkin workspace:
    ```bash
    cd ~/catkin_ws/src
    git clone https://github.com/b-erikan/Project_Lab_RCS.git
    ```
 
-5. Build the package:
+3. Build the package:
    ```bash
    cd ~/catkin_ws
    catkin_make
    ```
 
-6. Source your workspace:
+4. Source your workspace:
    ```bash
    source ~/catkin_ws/devel/setup.bash
    ```
